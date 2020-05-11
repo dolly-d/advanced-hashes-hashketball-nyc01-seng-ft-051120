@@ -131,7 +131,7 @@ def team_stats
   binding.pry
   home_team = game_hash[:home]
   away_team = game_hash[:away]
-  home_team.concat(away_team)
+  home_team.merge(away_team)
 
 end
 team_stats
