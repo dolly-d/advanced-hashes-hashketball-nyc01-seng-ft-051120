@@ -129,7 +129,7 @@ end
 
 def team_stats
   binding.pry
-  home_team = game_hash[:home],[:team_name]
+  home_team = game_hash[:home]
   away_team = game_hash[:home]
               game_hash[:team_name]
               game_hash[:colors]
