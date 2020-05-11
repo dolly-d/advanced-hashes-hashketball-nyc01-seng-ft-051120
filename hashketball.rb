@@ -128,10 +128,10 @@ def game_hash
 end
 
 def team_stats
+  binding.pry
   home_team = game_hash[:home][:team_name][:colors][:players]
   away_team = game_hash[:home][:team_name][:colors][:players]
   home_team.concat(away_team)
-  binding.pry
 
 end
 team_stats
